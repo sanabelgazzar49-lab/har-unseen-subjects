@@ -1,0 +1,4 @@
+setting,evaluated_on,macro_f1,accuracy
+Subject-independent,validation subjects,0.8900274091641315,0.8987161198288159
+Subject-independent,test subjects (PRIMARY),0.9302989712098974,0.9331523583305056
+Random window split,random test windows,0.9771527080740608,0.9772650152697658

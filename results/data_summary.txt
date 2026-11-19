@@ -1,0 +1,30 @@
+UCI HAR data summary (computed from the downloaded files)
+Windows: 10299 (official train 7352, official test 2947)
+Subjects: 30 (official train 21, official test 9)
+Engineered features per window: 561
+Raw signal tensor: (10299, 128, 9) = windows x readings x channels
+Window length: 128 readings (2.56 s at 50 Hz), consecutive windows overlap by 50% (dataset documentation)
+First feature names: tBodyAcc-mean()-X, tBodyAcc-mean()-Y, tBodyAcc-mean()-Z, tBodyAcc-std()-X, tBodyAcc-std()-Y
+Feature value range: min -1.000, max 1.000
+Missing values in features / signals: 0 / 0
+
+Windows per activity (official train | official test):
+  WALKING               1226 |   496
+  WALKING_UPSTAIRS      1073 |   471
+  WALKING_DOWNSTAIRS     986 |   420
+  SITTING               1286 |   491
+  STANDING              1374 |   532
+  LAYING                1407 |   537
+
+Windows per subject: min 281, max 409, median 342
+
+Raw signal channels (mean and standard deviation over all windows and readings):
+  body_acc_x   mean   -0.001   std   0.192
+  body_acc_y   mean   -0.000   std   0.122
+  body_acc_z   mean   -0.000   std   0.104
+  body_gyro_x  mean   -0.003   std   0.404
+  body_gyro_y  mean   -0.000   std   0.370
+  body_gyro_z  mean    0.001   std   0.254
+  total_acc_x  mean    0.807   std   0.412
+  total_acc_y  mean    0.022   std   0.397
+  total_acc_z  mean    0.085   std   0.344

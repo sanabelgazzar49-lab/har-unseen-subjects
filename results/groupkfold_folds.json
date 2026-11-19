@@ -1,0 +1,57 @@
+{
+  "fold0": {
+    "test_subjects": [
+      1,
+      5,
+      11,
+      13,
+      16,
+      25
+    ],
+    "n_test_windows": 2067
+  },
+  "fold1": {
+    "test_subjects": [
+      8,
+      12,
+      15,
+      17,
+      21,
+      29
+    ],
+    "n_test_windows": 2049
+  },
+  "fold2": {
+    "test_subjects": [
+      3,
+      7,
+      10,
+      20,
+      23,
+      26
+    ],
+    "n_test_windows": 2061
+  },
+  "fold3": {
+    "test_subjects": [
+      2,
+      4,
+      6,
+      18,
+      27,
+      30
+    ],
+    "n_test_windows": 2067
+  },
+  "fold4": {
+    "test_subjects": [
+      9,
+      14,
+      19,
+      22,
+      24,
+      28
+    ],
+    "n_test_windows": 2055
+  }
+}
